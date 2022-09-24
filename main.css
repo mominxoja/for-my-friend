@@ -1,52 +1,31 @@
 .container{
+    width: 350px;
     margin: 0 auto;
-    width: 300px;
-    border: 5px solid;
-     font-family: cursive;
-
+    border: none;
 }
-.header{
-    padding: 20px;
+header{
+    
     display: flex;
-    text-align: center;
-margin: 0 auto;
-}
-
-li:hover{
-    font-size: 16.6px;
-}
-li{
-    border: 2px solid;
-    background-color: rgba(235, 252, 3, 0.352);
-    list-style: none;
 }
 a{
-
-    color: black;
-    
     text-decoration: none;
+    color: black;
 }
-
-.div{
-    padding: 15px;
-    width: 300px;
-    border: 5px solid;
-    margin: 0 auto;
+img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-inline: 20px;
+}
+div{margin-inline: 20px;
+    display: block;
     text-align: center;
     align-items: center;
+    /* border: 5px solid; */
 }
-.con{
-    margin-bottom: 20px;
+button:active{
+    opacity: 0.2;
+}
 
-}
-.aaa:hover{
-    font-size: 16.6px;
-}
-.aaa
-{
-    border: 2px solid;
-    background-color: rgba(235, 252, 3, 0.352);
-    list-style: none;
-    color: black;
-    text-decoration: none;
+button{
+    background-color: rgba(200, 255, 0, 0.788);
 }
